@@ -40,7 +40,7 @@ export default function FeedItemPhotos({ photos }) {
         />
       )}
       <div
-        className="feed-photo-images-container w-full flex relative transition ease-linear duration-200"
+        className="feed-photo-images-container w-full relative transition ease-linear duration-200"
         style={{ transform: `translate(${photosX}px, 0px)` }}
       >
         <img
@@ -61,7 +61,7 @@ export default function FeedItemPhotos({ photos }) {
                       (photoRef.current.width + 2) * index
                     }px, 0px)`,
                   }}
-                  src={item || "hhttps://picsum.photos/400/400"}
+                  src={item || "https://picsum.photos/400/400"}
                 />
               )
             );
