@@ -5,6 +5,10 @@ import DmIcon from "./icons/dm_icon";
 import SaveIcon from "./icons/save_icon";
 import Clickable from "./clickable";
 
+function handleClick(){
+  console.log("hi");
+}
+
 export default function FeedItemButtons({ ...props }) {
   return (
     <div {...props}>
